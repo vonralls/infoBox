@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/infoBox.js"></script>
+<script>
+$(document).ready(function(){
+   $('#sampledata').infoBox();
+   $('p').addClass('vontext');
+});
+</script>
+<style type="text/css">
+  .vontext {
+    font-family: monospace;
+
+  }
+</style>
+</head>
+<body>
+
+  <p>This will the paragraph content
+      <a id="sampledata">This will be the information box content</a>
+  </p>
+
+</body>
+</html>
